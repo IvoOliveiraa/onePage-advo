@@ -238,42 +238,42 @@ main .home .img img{
 /*Fim - (Home)*/
 
 
-/*Começo - (About)*/
-main .about{
+/*Começo - (Services)*/
+main .services{
     display: flex;
     flex-direction: row;
     position: relative;
     z-index: -2;
 }
 
-main .about .a-content{
+main .services .s-content{
     margin: auto;
     max-width: 1300px;
 }
 
-main .about .a-content h1{
+main .services .s-content h1{
     font-size: 40px;
     font-family: 'Playfair Display', serif;
     letter-spacing: 1px;
 }
 
-main .about .a-content .sub-title{    
+main .services .s-content .sub-title{    
     color: var(--backgroud-contact);
 }
 
-main .about .a-content .sub-txt{
+main .services .s-content .sub-txt{
     margin: 30px 15px;
     font-size: 18px;
     color: var(--backgroud-txt);
 }
 
-main .about .a-content .about-cards{
+main .services .s-content .services-cards{
    display: grid;
    grid-template-columns: 1fr 1fr 1fr 1fr;
    margin: auto;
 }
 
-main .about .a-content .about-cards .card{
+main .services .s-content .services-cards .card{
     margin: 15px;
     padding: 15px;
     border: 1px solid var(--backgroud-contact);
@@ -282,20 +282,20 @@ main .about .a-content .about-cards .card{
     border-radius: 50px 0;
 }
 
-main .about .a-content .about-cards .card img{
+main .services .s-content .services-cards .card img{
     width: 50px;
 }
 
-main .about .a-content .about-cards .card .card-txt{
+main .services .s-content .services-cards .card .card-txt{
     margin-left: 15px;
 }
 
-main .about .a-content .about-cards .card .card-txt h4{
+main .services .s-content .services-cards .card .card-txt h4{
     font-size: 20px;
     margin-bottom: 7px;
 }
 
-main .about .a-content .about-cards .card .card-txt p{
+main .services .s-content .services-cards .card .card-txt p{
     color: var(--backgroud-txt);
 }
 
