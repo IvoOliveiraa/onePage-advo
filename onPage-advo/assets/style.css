@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: 'Open Sans', sans-serif;
+}
+
+:root{
+    --backgroud-principal: #fff;
+    --backgroud-1: #222222;
+    --backgroud-2:  #9f9f9f;
+    --backgroud-contact: #cca967;
+    --backgroud-txt: #3d3c3c;
+    --backgroud-font: #fff;
+}
+
+body{
+    background-color: var(--backgroud-principal);
+
+    /*font-family: 'Playfair Display', serif;
+    usar essa fonte no titulo principal h1
+    */
+}
+
+/*Começo (header)*/
+
+/* Começo do conteúdo (header-infos) */
+.infos{
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--backgroud-txt);
+    padding: 10px 0;
+}
+
+.infos .contact-info{
+    display: flex;
+    flex-direction: row;
+}
+
+.infos .txt-info{
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+}
+
+.infos .txt-info i{
+    margin: 0 7px;
+    font-size: 14px;
+    color: var(--backgroud-contact);
+}
+
+.infos .txt-info p{
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--backgroud-font);
+}
+
+#social-media{
+    display: none;
+}
+
+.social{
+    display: flex;
+    flex-direction: row;
+}
+
+.social a i{
+    margin: 0 4px;
+    font-size: 17px;
+    background-color: var(--backgroud-1);
+    padding: 8px;
+    border-radius: 50%;
+    color: var(--backgroud-font);
+    transition: 0.5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social a i:hover{
+    background-color: var(--backgroud-contact);
+    color: var(--backgroud-1);
+}
+/* Fim do conteúdo (header-infos) */
+
+
+/* Começo do conteúdo (nav) */
+header nav{
+    background-color: var(--backgroud-2);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px 0;
+}
+
+header #menu a{
+    font-size: 16px;
+    margin: 0 10px;
+    color: var(--backgroud-txt);
+    font-weight: 600;
+    padding: 6px;
+    transition: 0.5s;
+}
+
+header #menu a:hover{
+    color: var(--backgroud-contact);
+    border-bottom: 1px solid var(--backgroud-contact);
+}
+
+.contact{
+    background-color: var(--backgroud-contact);
+    padding: 7px 20px;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.contact a{
+    color: var(--backgroud-1);
+    font-weight: 600;
+    font-size: 15px;
+}
+
+
+header .menu-media{
+    display: none;
+}
+
+#info-media{
+    display: none;
+}
+/* Fim do conteúdo (nav) - continuar no @media (max-width: 768px)*/
+/*Fim (header)*/
+
+
+
+/*Começo - main*/
+/*Começo - (Home)*/
+main{
+    margin: auto;
+}
+
+main .home{
+    display: grid;
+    padding: 80px 50px;
+    position: relative;
+    z-index: -2;
+}
+
+main .home .h-content{
+    margin: auto;
+    display: flex;
+}
+
+main .home .h-content .content{
+    max-width: 65%;
+}
+
+main .home .h-content .txt{
+    text-align: center;
+}
+
+main .home .h-content h1{
+    font-size: 40px;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 1px;
+}
+
+main .home .h-content .sub-title{
+    color: var(--backgroud-contact);
+    margin-bottom: 30px;
+}
+
+main .home .h-content .sub-txt{
+    margin: auto;
+    font-size: 18px;
+    color: var(--backgroud-txt);
+    max-width: 80%;
+}
+
+
+main .home .h-content .success{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+main .home .h-content .success .btn{
+    background-color: var(--backgroud-contact);
+    padding: 7px 15px;
+    border-radius: 20px;
+    color: var(--backgroud-1);
+    font-size: 18px;
+}
+
+main .home .h-content .success .info-success{
+    display: flex;
+    margin: 0 30px;
+}
+
+main .home .h-content .success .info-success span{
+    margin: 0 7px;
+}
+
+main .home .h-content .success .info-success h3{
+    color: var(--backgroud-contact);
+    text-align: left;
+}
+
+main .home .h-content .success .info-success p{
+    color: var(--backgroud-txt);
+    font-family: 16px;
+}
+
+main .home .img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--backgroud-contact);
+    max-width: 400px;
+    margin: 0 40px;
+    border-radius: 50px 0;
+}
+
+main .home .img img{
+    max-width: 400px;
+    transform: translate(-30px, -20px);
+    border-radius: 50px 0;
+}
+/*Fim - (Home)*/
+
+
+/*Começo - (About)*/
+main .about{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    z-index: -2;
+}
+
+main .about .a-content{
+    margin: auto;
+    max-width: 1300px;
+}
+
+main .about .a-content h1{
+    font-size: 40px;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 1px;
+}
+
+main .about .a-content .sub-title{    
+    color: var(--backgroud-contact);
+}
+
+main .about .a-content .sub-txt{
+    margin: 30px 15px;
+    font-size: 18px;
+    color: var(--backgroud-txt);
+}
+
+main .about .a-content .about-cards{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   margin: auto;
+}
+
+main .about .a-content .about-cards .card{
+    margin: 15px;
+    padding: 15px;
+    border: 1px solid var(--backgroud-contact);
+    display: flex;
+    flex-direction: row;
+    border-radius: 50px 0;
+}
+
+main .about .a-content .about-cards .card img{
+    width: 50px;
+}
+
+main .about .a-content .about-cards .card .card-txt{
+    margin-left: 15px;
+}
+
+main .about .a-content .about-cards .card .card-txt h4{
+    font-size: 20px;
+    margin-bottom: 7px;
+}
+
+main .about .a-content .about-cards .card .card-txt p{
+    color: var(--backgroud-txt);
+}
+
+
+
