@@ -31,7 +31,6 @@ body{
 }
 
 /*Começo (header)*/
-
 /* Começo do conteúdo (header-infos) */
 .infos{
     display: flex;
@@ -152,33 +151,34 @@ main .home{
     padding: 80px 50px;
     position: relative;
     z-index: -2;
+    background-color: blueviolet;
 }
 
-main .home .h-content{
+main .home .hm-content{
     margin: auto;
     display: flex;
 }
 
-main .home .h-content .content{
+main .home .hm-content .content{
     max-width: 65%;
 }
 
-main .home .h-content .txt{
+main .home .hm-content .txt{
     text-align: center;
 }
 
-main .home .h-content h1{
-    font-size: 40px;
+main .home .hm-content h1{
+    font-size: 38px;
     font-family: 'Playfair Display', serif;
     letter-spacing: 1px;
 }
 
-main .home .h-content .sub-title{
+main .home .hm-content .sub-title{
     color: var(--backgroud-contact);
     margin-bottom: 30px;
 }
 
-main .home .h-content .sub-txt{
+main .home .hm-content .sub-txt{
     margin: auto;
     font-size: 18px;
     color: var(--backgroud-txt);
@@ -186,14 +186,14 @@ main .home .h-content .sub-txt{
 }
 
 
-main .home .h-content .success{
+main .home .hm-content .success{
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 20px;
 }
 
-main .home .h-content .success .btn{
+main .home .hm-content .success .btn{
     background-color: var(--backgroud-contact);
     padding: 7px 15px;
     border-radius: 20px;
@@ -201,21 +201,21 @@ main .home .h-content .success .btn{
     font-size: 18px;
 }
 
-main .home .h-content .success .info-success{
+main .home .hm-content .success .info-success{
     display: flex;
     margin: 0 30px;
 }
 
-main .home .h-content .success .info-success span{
+main .home .hm-content .success .info-success span{
     margin: 0 7px;
 }
 
-main .home .h-content .success .info-success h3{
+main .home .hm-content .success .info-success h3{
     color: var(--backgroud-contact);
     text-align: left;
 }
 
-main .home .h-content .success .info-success p{
+main .home .hm-content .success .info-success p{
     color: var(--backgroud-txt);
     font-family: 16px;
 }
@@ -225,17 +225,93 @@ main .home .img{
     align-items: center;
     justify-content: center;
     border: 1px solid var(--backgroud-contact);
-    max-width: 400px;
+    max-width: 430px;
     margin: 0 40px;
     border-radius: 50px 0;
 }
 
 main .home .img img{
-    max-width: 400px;
+    max-width: 430px;
     transform: translate(-30px, -20px);
     border-radius: 50px 0;
 }
 /*Fim - (Home)*/
+
+
+
+
+/*Começo - (About)*/
+main .about{
+    padding: 50px 0;
+    position: relative;
+    z-index: -2;
+    background-color: aqua;
+}
+
+main .about .ab-content{
+    margin: auto;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+main .about .ab-content .content{
+    max-width: 65%;
+}
+
+
+main .about .ab-content h1{
+    font-size: 30px;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 1px;
+    margin: 0 3px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+main .about .ab-content .sub-title{
+    color: var(--backgroud-contact);
+}
+
+main .about .ab-content .sub-txt{
+    font-size: 18px;
+    color: var(--backgroud-txt);
+    max-width: 80%;
+    margin: auto;
+}
+
+main .about .ab-content .success{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+main .about .ab-content .success .btn{
+    background-color: var(--backgroud-contact);
+    padding: 7px 15px;
+    border-radius: 20px;
+    color: var(--backgroud-1);
+    font-size: 18px;
+}
+
+main .about .img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--backgroud-contact);
+    max-width: 390px;
+    margin: 0 40px;
+    border-radius: 50px 0;
+}
+
+main .about .img img{
+    max-width: 390px;
+    transform: translate(30px, 20px);
+    border-radius: 50px 0;
+}
+/*Fim - (About)*/
+
+
 
 
 /*Começo - (Services)*/
@@ -244,36 +320,40 @@ main .services{
     flex-direction: row;
     position: relative;
     z-index: -2;
+    background-color: bisque;
 }
 
-main .services .s-content{
+main .services .sv-content{
     margin: auto;
     max-width: 1300px;
+    padding: 40px 0;
 }
 
-main .services .s-content h1{
-    font-size: 40px;
+
+main .services .sv-content h1{
+    font-size: 30px;
     font-family: 'Playfair Display', serif;
     letter-spacing: 1px;
+    text-align: center;
 }
 
-main .services .s-content .sub-title{    
+main .services .sv-content .sub-title{    
     color: var(--backgroud-contact);
 }
 
-main .services .s-content .sub-txt{
+main .services .sv-content .sub-txt{
     margin: 30px 15px;
     font-size: 18px;
     color: var(--backgroud-txt);
 }
 
-main .services .s-content .services-cards{
+main .services .sv-content .services-cards{
    display: grid;
    grid-template-columns: 1fr 1fr 1fr 1fr;
    margin: auto;
 }
 
-main .services .s-content .services-cards .card{
+main .services .sv-content .services-cards .card{
     margin: 15px;
     padding: 15px;
     border: 1px solid var(--backgroud-contact);
@@ -282,22 +362,21 @@ main .services .s-content .services-cards .card{
     border-radius: 50px 0;
 }
 
-main .services .s-content .services-cards .card img{
+main .services .sv-content .services-cards .card img{
     width: 50px;
 }
 
-main .services .s-content .services-cards .card .card-txt{
+main .services .sv-content .services-cards .card .card-txt{
     margin-left: 15px;
 }
 
-main .services .s-content .services-cards .card .card-txt h4{
+main .services .sv-content .services-cards .card .card-txt h4{
     font-size: 20px;
     margin-bottom: 7px;
 }
 
-main .services .s-content .services-cards .card .card-txt p{
+main .services .sv-content .services-cards .card .card-txt p{
     color: var(--backgroud-txt);
 }
-
-
+/*Fim - (Services)*/
 
