@@ -234,6 +234,7 @@ main .home .img img{
     max-width: 430px;
     transform: translate(-30px, -20px);
     border-radius: 50px 0;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.171);
 }
 /*Fim - (Home)*/
 
@@ -308,6 +309,7 @@ main .about .img img{
     max-width: 390px;
     transform: translate(30px, 20px);
     border-radius: 50px 0;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.171);
 }
 /*Fim - (About)*/
 
@@ -360,6 +362,7 @@ main .services .sv-content .services-cards .card{
     display: flex;
     flex-direction: row;
     border-radius: 50px 0;
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.171);
 }
 
 main .services .sv-content .services-cards .card img{
