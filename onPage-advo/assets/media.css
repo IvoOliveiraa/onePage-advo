@@ -31,8 +31,8 @@
         width: 100%;
         height: 90px;
         background-color: red;
+        z-index: 1;
     }
-
 
     header .infos .contact-info {/*tirar isso aqui depois*/
         display: grid;
@@ -74,7 +74,7 @@
         left: -100%;
         width: 100%;
         height: 100%;
-        background: var(--backgroud-principal);
+        background: var(--backgroud-header);
         border-top: .1rem solid rgba(0, 0, 0, .2);
         z-index: -1;
         transition: .25s ease;
@@ -151,6 +151,8 @@
         width: 100%;
         background-color: transparent;
         border-top: 1px solid var(--backgroud-contact);
+        border-image: var(--gradient) 1;
+        border-bottom: none;
     }
 
     #info-media .contact-info{
@@ -177,15 +179,9 @@
     }
     
     #info-media .social i{
-        color: var(--backgroud-principal);
-        background-color: var(--backgroud-contact);
         transition: 0.5s;
-    }
-
-    #info-media .social i:hover{
-        background-color: var(--backgroud-principal);
-        color: var(--backgroud-contact);
-        border: 1px solid var(--backgroud-contact);
+        background: var(--gradient);
+        color: var(--backgroud-header);
     }
     /* Fim do conteúdo (nav)*/
 
@@ -205,12 +201,14 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        background-color: transparent;
+        background: transparent;
     }
+    
     
     .icon-media .contact i{
         font-size: 20px;
-        background-color: var(--backgroud-contact);
+        background: var(--gradient);
+        color: var(--backgroud-header);
         padding: 10px;
         border-radius: 50%;
         display: flex;
@@ -225,7 +223,7 @@
     }
 
     .icon-media .contact .bi-list{
-        background-color: transparent;
+        background: transparent;
         font-size: 27px;
     }
 

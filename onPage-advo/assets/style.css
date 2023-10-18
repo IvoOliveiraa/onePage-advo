@@ -14,12 +14,14 @@
 }
 
 :root{
-    --backgroud-principal: #fff;
+    --backgroud-principal: #e7e7e7;
     --backgroud-1: #222222;
-    --backgroud-2:  #9f9f9f;
     --backgroud-contact: #cca967;
-    --backgroud-txt: #3d3c3c;
-    --backgroud-font: #fff;
+    --backgroud-border: #cca967;
+    --backgroud-txt: #e7e7e7;
+    --backgroud-txt2: #000;
+    --backgroud-header: #5c0008;
+    --gradient: linear-gradient(to right, #f9f295, #e0aa3e, #faf398,#b88a44);
 }
 
 body{
@@ -35,8 +37,10 @@ body{
 .infos{
     display: flex;
     justify-content: space-around;
-    background-color: var(--backgroud-txt);
+    background-color: var(--backgroud-header);
     padding: 10px 0;
+    border-bottom: 1px solid var(--backgroud-border);
+    border-image: var(--gradient) 1;
 }
 
 .infos .contact-info{
@@ -53,13 +57,16 @@ body{
 .infos .txt-info i{
     margin: 0 7px;
     font-size: 14px;
-    color: var(--backgroud-contact);
+    background-image: var(--gradient);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
 }
 
 .infos .txt-info p{
     font-size: 14px;
-    font-weight: 600;
-    color: var(--backgroud-font);
+    font-weight: 500;
+    color: var(--backgroud-txt);
 }
 
 #social-media{
@@ -74,26 +81,28 @@ body{
 .social a i{
     margin: 0 4px;
     font-size: 17px;
-    background-color: var(--backgroud-1);
     padding: 8px;
     border-radius: 50%;
-    color: var(--backgroud-font);
     transition: 0.5s;
     display: flex;
     align-items: center;
     justify-content: center;
+    background-image: var(--gradient);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
 }
 
 .social a i:hover{
-    background-color: var(--backgroud-contact);
-    color: var(--backgroud-1);
+    background: var(--backgroud-contact);
+    color: var(--backgroud-header);
 }
 /* Fim do conteúdo (header-infos) */
 
 
 /* Começo do conteúdo (nav) */
 header nav{
-    background-color: var(--backgroud-2);
+    background-color: var(--backgroud-header);
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -104,7 +113,7 @@ header #menu a{
     font-size: 16px;
     margin: 0 10px;
     color: var(--backgroud-txt);
-    font-weight: 600;
+    font-weight: 500;
     padding: 6px;
     transition: 0.5s;
 }
@@ -115,18 +124,17 @@ header #menu a:hover{
 }
 
 .contact{
-    background-color: var(--backgroud-contact);
+    background: var(--gradient);
     padding: 7px 20px;
     border-radius: 20px;
     transition: 0.3s;
 }
 
 .contact a{
-    color: var(--backgroud-1);
+    color: var(--backgroud-txt2);
     font-weight: 600;
     font-size: 15px;
 }
-
 
 header .menu-media{
     display: none;
@@ -148,10 +156,9 @@ main{
 
 main .home{
     display: grid;
-    padding: 80px 50px;
+    padding: 70px 50px;
     position: relative;
-    z-index: -2;
-    background-color: blueviolet;
+    background-color: var(--backgroud-header);
 }
 
 main .home .hm-content{
@@ -174,8 +181,11 @@ main .home .hm-content h1{
 }
 
 main .home .hm-content .sub-title{
-    color: var(--backgroud-contact);
     margin-bottom: 30px;
+    background-image: var(--gradient);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
 }
 
 main .home .hm-content .sub-txt{
@@ -183,8 +193,8 @@ main .home .hm-content .sub-txt{
     font-size: 18px;
     color: var(--backgroud-txt);
     max-width: 80%;
+    font-weight: 500;
 }
-
 
 main .home .hm-content .success{
     display: flex;
@@ -194,7 +204,7 @@ main .home .hm-content .success{
 }
 
 main .home .hm-content .success .btn{
-    background-color: var(--backgroud-contact);
+    background: var(--gradient);
     padding: 7px 15px;
     border-radius: 20px;
     color: var(--backgroud-1);
@@ -224,7 +234,7 @@ main .home .img{
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid var(--backgroud-contact);
+    border: 1px solid var(--backgroud-border);
     max-width: 430px;
     margin: 0 40px;
     border-radius: 50px 0;
@@ -243,10 +253,9 @@ main .home .img img{
 
 /*Começo - (About)*/
 main .about{
-    padding: 50px 0;
+    padding: 60px 0;
     position: relative;
-    z-index: -2;
-    background-color: aqua;
+    background-color: var(--backgroud-principal);
 }
 
 main .about .ab-content{
@@ -275,7 +284,7 @@ main .about .ab-content .sub-title{
 
 main .about .ab-content .sub-txt{
     font-size: 18px;
-    color: var(--backgroud-txt);
+    color: var(--backgroud-txt2);
     max-width: 80%;
     margin: auto;
 }
@@ -299,7 +308,7 @@ main .about .img{
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid var(--backgroud-contact);
+    border: 1px solid var(--backgroud-border);
     max-width: 390px;
     margin: 0 40px;
     border-radius: 50px 0;
@@ -321,14 +330,14 @@ main .services{
     display: flex;
     flex-direction: row;
     position: relative;
-    z-index: -2;
-    background-color: bisque;
+    background-color: var(--backgroud-principal);
+    /*border-top: 1px solid var(--backgroud-);*/
 }
 
 main .services .sv-content{
     margin: auto;
     max-width: 1300px;
-    padding: 40px 0;
+    padding: 20px 0;
 }
 
 
@@ -346,7 +355,7 @@ main .services .sv-content .sub-title{
 main .services .sv-content .sub-txt{
     margin: 30px 15px;
     font-size: 18px;
-    color: var(--backgroud-txt);
+    color: var(--backgroud-txt2);
 }
 
 main .services .sv-content .services-cards{
@@ -379,7 +388,7 @@ main .services .sv-content .services-cards .card .card-txt h4{
 }
 
 main .services .sv-content .services-cards .card .card-txt p{
-    color: var(--backgroud-txt);
+    color: var(--backgroud-txt2);
 }
 /*Fim - (Services)*/
 
