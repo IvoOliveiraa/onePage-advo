@@ -15,7 +15,6 @@
 
 :root{
     --backgroud-principal: #e7e7e7;
-    --backgroud-1: #222222;
     --backgroud-contact: #cca967;
     --backgroud-border: #cca967;
     --backgroud-txt: #e7e7e7;
@@ -119,8 +118,11 @@ header #menu a{
 }
 
 header #menu a:hover{
-    color: var(--backgroud-contact);
     border-bottom: 1px solid var(--backgroud-contact);
+    background-image: var(--gradient);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
 }
 
 .border{
@@ -137,8 +139,12 @@ header #menu a:hover{
     border: 2px solid var(--backgroud-header);
 }
 
+.contact .bi{
+    color: var(--backgroud-header);
+}
+
 .contact a{
-    color: var(--backgroud-txt2);
+    color: var(--backgroud-header);
     font-weight: 600;
     font-size: 15px;
 }
@@ -224,7 +230,7 @@ main .home .hm-content .success .btn{
 }
 
 main .home .hm-content .success .btn a {
-    color: var(--backgroud-1);
+    color: var(--backgroud-header);
 }
 
 main .home .hm-content .success .info-success{
@@ -316,7 +322,7 @@ main .about .ab-content .success .btn{
     background-color: var(--backgroud-contact);
     padding: 7px 15px;
     border-radius: 20px;
-    color: var(--backgroud-1);
+    color: var(--backgroud-txt2);
     font-size: 18px;
 }
 
