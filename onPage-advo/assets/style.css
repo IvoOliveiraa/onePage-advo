@@ -353,7 +353,6 @@ main .services{
     flex-direction: row;
     position: relative;
     background-color: var(--backgroud-principal);
-    /*border-top: 1px solid var(--backgroud-);*/
 }
 
 main .services .sv-content{
@@ -413,4 +412,123 @@ main .services .sv-content .services-cards .card .card-txt p{
     color: var(--backgroud-txt2);
 }
 /*Fim - (Services)*/
+
+
+
+/*Começo - (Team)*/
+main .team{
+    margin-top: 100px;
+}
+
+main .team .tm-content{
+    margin: auto;
+    max-width: 1300px;
+    padding: 20px 0;
+    display: flex;
+}
+
+main .team .tm-content .content{
+    border-right: 1px solid var(--backgroud-border);
+    padding: 30px;
+}
+
+main .team .tm-content .txt{
+    text-align: center;
+}
+
+main .team .tm-content h1{
+    font-size: 30px;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 1px;
+}
+
+
+main .team .tm-content .sub-title{    
+    color: var(--backgroud-contact);
+}
+
+main .team .tm-content .sub-txt{
+    margin: 30px 15px;
+    font-size: 18px;
+    color: var(--backgroud-txt2);
+}
+
+main .team .tm-content .success{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main .team .tm-content .btn{
+    background-color: var(--backgroud-contact);
+    padding: 7px 15px;
+    border-radius: 20px;
+    color: var(--backgroud-txt2);
+    font-size: 18px;
+}
+
+main .team .tm-content .team-cards{
+   padding: 40px;
+}
+
+main .team .tm-content .team-cards .cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 30px;
+}
+
+main .team .tm-content .team-cards .card{
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.171);
+    border-radius: 20px;
+    border: 1px solid var(--backgroud-border);
+    width: 250px;
+}
+
+main .team .tm-content .team-cards .card img{
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+
+main .team .tm-content .team-cards .card .card-txt{
+   text-align: center;
+}
+
+main .team .tm-content .team-cards .card .card-txt h3{
+    font-size: 20px;
+}
+
+main .team .tm-content .team-cards .card .card-txt p{
+    color: var(--backgroud-txt2);
+    font-size: 14px;
+}
+
+main .team .tm-content .team-cards .card .card-txt .info{
+    margin: 6px 0;
+    padding: 0 10px;
+    font-size: 16px;
+}
+
+main .team .tm-content .team-cards .card .card-social{
+    text-align: center;
+    margin: 20px;
+}
+
+main .team .tm-content .team-cards .card .card-social i{
+    padding: 7px;
+    font-size: 13px;
+    border-radius: 50%;
+    background-color: var(--backgroud-contact);
+    color: var(--backgroud-header);
+    margin: 0 5px;
+    transition: 0.5s;
+}
+
+main .team .tm-content .team-cards .card .card-social i:hover{
+    background-color: var(--backgroud-header);
+    color: var(--backgroud-contact);
+}
+/*Fim - (Team)*/
 
