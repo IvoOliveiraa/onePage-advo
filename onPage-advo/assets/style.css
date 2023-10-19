@@ -82,7 +82,6 @@ body{
     font-size: 17px;
     padding: 8px;
     border-radius: 50%;
-    transition: 0.5s;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -90,6 +89,7 @@ body{
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
+    transition: 0.5s, background-image 0.5s;
 }
 
 .social a i:hover{
@@ -114,7 +114,7 @@ header #menu a{
     color: var(--backgroud-txt);
     font-weight: 500;
     padding: 6px;
-    transition: 0.5s;
+    transition: 0.5s, background-image 0.5s;
 }
 
 header #menu a:hover{
