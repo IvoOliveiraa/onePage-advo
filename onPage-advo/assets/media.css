@@ -197,13 +197,18 @@
     header .icon-media{
         display: flex;
     }
+
     .contact{
         display: flex;
         align-items: center;
         justify-content: center;
         background: transparent;
+        border: transparent;
     }
     
+    #border{
+        display: none;
+    }
     
     .icon-media .contact i{
         font-size: 20px;
@@ -231,13 +236,10 @@
         background-color: transparent;
         border: transparent;
     }
-    /* Fim do conteúdo (
+    /* Fim do conteúdo (header)
         
-    )*/
 
-    /*Fim (header)*/
-
-
+    
     /*main*/
     main .home .presentation{
         background-color: red;
