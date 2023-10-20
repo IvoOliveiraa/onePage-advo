@@ -585,6 +585,10 @@ footer .contact-info .info h3{
     margin-top: 15px;
 }
 
+footer .contact-info h3{
+    color: var(--backgroud-txt);
+}
+
 footer .contact-info .info .txt-info{
     display: flex;
     flex-direction: row;
@@ -602,6 +606,7 @@ footer .contact-info .bi{
 footer .contact-info p{
     font-size: 14px;
     font-weight: 600;
+    color: var(--backgroud-txt);
 }
 
 footer .end .txt-info{
@@ -634,18 +639,20 @@ footer .social-media .icon{
 footer .social-media .icon i{
     margin: 0 10px;
 }
+/*Fim - (Footer)*/
 
 .copy{
    background: var(--backgroud-header);
    border-top: 2px solid var(--backgroud-border);
    border-image: var(--gradient2) 1;
-   padding: 7px;
+   padding: 8px;
 }
 
 .copy p{
     text-align: center;
     font-size: 14px;
     font-weight: 600;
+    color: var(--backgroud-txt);
 }
 
 .up{
@@ -662,11 +669,11 @@ footer .social-media .icon i{
     font-size: 20px;
     border-radius: 50%;
     position: fixed;
-    bottom: 70px;
+    bottom: 50px;
     right: 90px;
 }
 
 .up .bi-whatsapp{
-    bottom: 70px;
+    bottom: 50px;
     right: 30px;
 }
