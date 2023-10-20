@@ -634,3 +634,39 @@ footer .social-media .icon{
 footer .social-media .icon i{
     margin: 0 10px;
 }
+
+.copy{
+   background: var(--backgroud-header);
+   border-top: 2px solid var(--backgroud-border);
+   border-image: var(--gradient2) 1;
+   padding: 7px;
+}
+
+.copy p{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.up{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+
+.up i{
+    color: var(--backgroud-principal);
+    background: var(--backgroud-txt2);
+    padding: 6px 10px;
+    font-size: 20px;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 70px;
+    right: 90px;
+}
+
+.up .bi-whatsapp{
+    bottom: 70px;
+    right: 30px;
+}
