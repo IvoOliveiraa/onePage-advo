@@ -21,13 +21,14 @@
     --backgroud-txt2: #000;
     --backgroud-header: #5c0008;
     --gradient: linear-gradient(to right, #f9f295, #e0aa3e, #faf398,#b88a44);
+    --gradient2: linear-gradient(to right, #ae8625, #f7ef8a, #d2ac47,#edc967);
 }
 
 body{
     background-color: var(--backgroud-principal);
 
     /*font-family: 'Playfair Display', serif;
-    usar essa fonte no titulo principal h1
+    usar essa fonte no titulo principal h1  
     */
 }
 
@@ -532,3 +533,50 @@ main .team .tm-content .team-cards .card .card-social i:hover{
 }
 /*Fim - (Team)*/
 
+
+/*Começo - (Footer)*/
+footer{
+    display: flex;
+    margin-top: 80px;
+    background-color: var(--backgroud-header);
+}
+
+footer .logo{
+    display: flex;
+    width: 300px;
+}
+
+footer .logo h1{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 0 20px;
+}
+
+footer .logo img{
+    width: 200px;
+}
+
+footer .contact-info{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+footer .info{
+    background-color: azure;
+}
+
+footer .end{
+    background-color: #5c0008;
+}
+
+footer .end iframe{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+footer .social-media{
+    background-color: blueviolet;
+}
