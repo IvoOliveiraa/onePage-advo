@@ -566,20 +566,71 @@ footer .contact-info{
     width: 100%;
 }
 
-footer .info{
-    background-color: azure;
+footer .info .name{
+    margin-top: 20px;
+    padding-bottom: 7px;
+    border-bottom: 1px solid var(--backgroud-border);
+    border-image: var(--gradient2) 1;
 }
 
-footer .end{
-    background-color: #5c0008;
+footer .contact-info h1{
+    font-size: 18px;
+}
+
+footer .contact-info h4{
+    font-size: 15px;
+}
+
+footer .contact-info .info h3{
+    margin-top: 15px;
+}
+
+footer .contact-info .info .txt-info{
+    display: flex;
+    flex-direction: row;
+    margin: 7px 0;
+}
+
+footer .contact-info .bi{
+    margin-right: 10px;
+    background-image: var(--gradient);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+footer .contact-info p{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+footer .end .txt-info{
+    margin-top: 20px
+}
+
+footer .end .txt-info .txt{
+    display: flex;
+    margin: 15px 0;
 }
 
 footer .end iframe{
     width: 100%;
     height: 100%;
     border-radius: 20px;
+    margin-bottom: 20px;
 }
 
 footer .social-media{
-    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+footer .social-media .icon{
+    text-align: center;
+    margin-top: 10px;
+}
+
+footer .social-media .icon i{
+    margin: 0 10px;
 }
