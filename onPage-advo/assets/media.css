@@ -91,11 +91,13 @@
     }
 }
 
+
 @media (max-width: 923px){
     main .team .tm-content .team-cards .cards{
         grid-template-columns: 1fr 1fr;
     }
 }
+
 
 @media (max-width: 823px){
     main .services .sv-content .services-cards{
@@ -525,6 +527,7 @@
     }
 
 }
+
 
 @media (max-width: 420px){
     main .home .img{
