@@ -658,6 +658,7 @@ footer .social-media{
 
 footer .social-media h3{
     text-align: center;
+    margin-bottom: 8px;
 }
 
 footer .social-media .icon{
@@ -666,7 +667,17 @@ footer .social-media .icon{
 }
 
 footer .social-media .icon i{
-    margin: 0 10px;
+    margin: 10px;
+}
+
+footer .social-media .icon a{
+    transition: 0.5s;
+    padding: 8px 0;
+    border-radius: 50%;
+}
+
+footer .social-media .icon a:hover{
+    background-color: var(--backgroud-header);
 }
 
 footer .end{
