@@ -139,7 +139,7 @@
         top: 100%;
         left: -100%;
         width: 100%;
-        padding: 6.9rem 4%;
+        padding: 40px 0;
         background: var(--backgroud-contact);
         box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
         transition: .25S ease;
@@ -177,7 +177,7 @@
     nav #menu a{
         display: flex;
         font-size: 1rem;
-        margin: 2rem 0;
+        margin: 20px 0;
         transform: translateX(-30rem);
         transition: .20s ease;
         transition-delay: 0s;
@@ -337,7 +337,7 @@
     /* Fim do conteúdo (header)*/
 
     main .home{
-        padding-top: 200px;
+        padding-top: 120px;
     }
 
     .up i{
