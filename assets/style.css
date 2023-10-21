@@ -395,9 +395,8 @@ main .services .sv-content .sub-txt{
 
 main .services .sv-content .services-cards{
    display: grid;
-   grid-template-columns: 1fr 1fr 1fr 1fr;
-   margin: auto;
-   margin: 0 20px;
+   grid-template-columns: 1fr 1fr 1fr;
+   gap: 40px;
 }
 
 main .services .sv-content .services-cards .card{
@@ -410,6 +409,7 @@ main .services .sv-content .services-cards .card{
     flex-direction: row;
     border-radius: 50px 0;
     box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.171);
+    margin: auto;
 }
 
 main .services .sv-content .services-cards .card img{

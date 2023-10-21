@@ -6,12 +6,6 @@
         align-items: center;
     }
 
-    main .services .sv-content .services-cards{
-        grid-template-columns: 1fr 1fr;
-        gap: 20px;
-        margin-top: 20px;
-    }
-
     main .team{
         margin-top: 50px;
     }
@@ -41,6 +35,10 @@
 
     footer .info{
         margin-top: 30px;
+    }
+
+    main .services .sv-content .services-cards{
+        grid-template-columns: 1fr 1fr;
     }
 
 }
