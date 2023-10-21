@@ -14,7 +14,9 @@
 }
 
 :root{
-    --backgroud-principal: #e7e7e7;
+    --backgroud-principal: #c0bfb2;
+    --backgroud-secundario: #ece6d3;
+    --backgroud-footer: #221712;
     --backgroud-contact: #cca967;
     --backgroud-border: #cca967;
     --backgroud-txt: #e7e7e7;
@@ -27,10 +29,6 @@
 
 body{
     background-color: var(--backgroud-principal);
-
-    /*font-family: 'Playfair Display', serif;
-    usar essa fonte no titulo principal h1  
-    */
 }
 
 /*Começo (header)*/
@@ -303,7 +301,7 @@ main .about .ab-content h1{
 }
 
 main .about .ab-content .sub-title{
-    color: var(--backgroud-contact);
+    color: var(--backgroud-header);
     font-family: 'Playfair Display', serif
 }
 
@@ -327,13 +325,19 @@ main .about .ab-content .success .btn{
     border-radius: 20px;
     color: var(--backgroud-txt2);
     font-size: 18px;
+    transition: 0.5s;
+}
+
+main .about .ab-content .success .btn:hover{
+    background-color: var(--backgroud-header);
+    color: var(--backgroud-contact);
 }
 
 main .about .img{
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid var(--backgroud-border);
+    border: 1px solid var(--backgroud-header);
     max-width: 390px;
     margin: 0 40px;
     border-radius: 50px 0;
@@ -355,7 +359,8 @@ main .services{
     display: flex;
     flex-direction: row;
     position: relative;
-    background-color: var(--backgroud-principal);
+    background-color: var(--backgroud-secundario);
+    padding-bottom: 50px;
 }
 
 main .services .sv-content{
@@ -377,7 +382,7 @@ main .services .sv-content h1{
 }
 
 main .services .sv-content .sub-title{    
-    color: var(--backgroud-contact);
+    color: var(--backgroud-header);
     font-family: 'Playfair Display', serif
 }
 
@@ -399,6 +404,7 @@ main .services .sv-content .services-cards .card{
     margin: 15px;
     padding: 15px;
     border: 1px solid var(--backgroud-contact);
+    background-color: var(--backgroud-teste1);
     width: 350px;
     display: flex;
     flex-direction: row;
@@ -428,7 +434,8 @@ main .services .sv-content .services-cards .card .card-txt p{
 
 /*Começo - (Team)*/
 main .team{
-    margin-top: 50px;
+    background-color: var(--backgroud-principal);
+    padding: 30px 0;
 }
 
 main .team .tm-content{
@@ -457,7 +464,7 @@ main .team .tm-content h1{
 
 
 main .team .tm-content .sub-title{    
-    color: var(--backgroud-contact);
+    color: var(--backgroud-header);
     font-family: 'Playfair Display', serif;
 }
 
@@ -479,6 +486,12 @@ main .team .tm-content .btn{
     border-radius: 20px;
     color: var(--backgroud-txt2);
     font-size: 18px;
+    transition: 0.5s;
+}
+
+main .team .tm-content .btn:hover{
+    background-color: var(--backgroud-header);
+    color: var(--backgroud-contact);
 }
 
 main .team .tm-content .team-cards{
@@ -551,8 +564,7 @@ main .team .tm-content .team-cards .card .card-social i:hover{
 
 /*Começo - (Footer)*/
 footer{
-    margin-top: 80px;
-    background-color: var(--backgroud-header);
+    background-color: var(--backgroud-footer);
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
@@ -663,7 +675,7 @@ footer .end{
 /*Fim - (Footer)*/
 
 .copy{
-   background: var(--backgroud-header);
+   background: var(--backgroud-footer);
    border-top: 2px solid var(--backgroud-border);
    border-image: var(--gradient2) 1;
    padding: 8px;
@@ -684,8 +696,8 @@ footer .end{
 }
 
 .up i{
-    color: var(--backgroud-principal);
-    background: var(--backgroud-txt2);
+    color: var(--backgroud-txt);
+    background: var(--backgroud-header);
     padding: 6px 10px;
     font-size: 20px;
     border-radius: 50%;

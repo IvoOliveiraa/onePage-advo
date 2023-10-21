@@ -26,6 +26,7 @@
         border-left: transparent;
         margin-top: 50px;
         border-top: 1px solid var(--backgroud-border);
+        border-image: var(--gradient2) 1;
     }
 
     footer{
