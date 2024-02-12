@@ -103,9 +103,16 @@ body{
 header nav{
     background-color: var(--backgroud-header);
     display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    padding: 15px 0;
+}
+
+header nav .links{
+    display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 15px 0;
+    padding: 10px 0;
 }
 
 header #menu a{
@@ -154,7 +161,7 @@ header .menu-media{
 }
 
 #info-media{
-    display: none;
+    display: flex;
 }
 /* Fim do conteúdo (nav) - continuar no @media (max-width: 768px)*/
 /*Fim (header)*/
@@ -238,7 +245,7 @@ main .home .hm-content .success .info-success{
     margin: 0 30px;
 }
 
-main .home .hm-content .success .info-success span{
+main .home .hm-content .success .info-success div{
     margin: 0 7px;
 }
 
