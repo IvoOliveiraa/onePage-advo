@@ -51,7 +51,6 @@ main .home .hm-content .success .btn{
     background: var(--gradient);
     padding: 5px 15px;
     border-radius: 20px;
-    font-size: 18px;
     border: 2px solid var(--backgroud-header);
 }
 
@@ -75,7 +74,8 @@ main .home .hm-content .success .info-success h3{
 
 main .home .hm-content .success .info-success p{
     color: var(--backgroud-txt);
-    font-family: 16px;
+    white-space: nowrap;
+    margin-left: 0;
 }
 
 main .home .img{

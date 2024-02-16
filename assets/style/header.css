@@ -15,10 +15,9 @@ header nav .links{
 }
 
 header #menu a{
-    font-size: 16px;
     margin: 0 10px;
     color: var(--backgroud-txt);
-    font-weight: 500;
+    font-weight: 600;
     padding: 6px;
     transition: 0.5s, background-image 0.5s;
 }
@@ -52,7 +51,6 @@ header #menu a:hover{
 .contact a{
     color: var(--backgroud-header);
     font-weight: 600;
-    font-size: 15px;
 }
 
 header .menu-media{
@@ -88,7 +86,6 @@ header .menu-media{
 
 .infos .txt-info i{
     margin: 0 7px;
-    font-size: 14px;
     background-image: var(--gradient);
     background-clip: text;
     -webkit-background-clip: text;
@@ -96,8 +93,6 @@ header .menu-media{
 }
 
 .infos .txt-info p{
-    font-size: 14px;
-    font-weight: 500;
     color: var(--backgroud-txt);
 }
 
@@ -112,7 +107,6 @@ header .menu-media{
 
 .social a i{
     margin: 0 4px;
-    font-size: 17px;
     padding: 8px;
     border-radius: 50%;
     display: flex;
