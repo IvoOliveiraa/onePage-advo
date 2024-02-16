@@ -1,0 +1,132 @@
+/* Começo do conteúdo (nav) */
+header nav{
+    background-color: var(--backgroud-header);
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    padding: 15px 0;
+}
+
+header nav .links{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+}
+
+header #menu a{
+    font-size: 16px;
+    margin: 0 10px;
+    color: var(--backgroud-txt);
+    font-weight: 500;
+    padding: 6px;
+    transition: 0.5s, background-image 0.5s;
+}
+
+header #menu a:hover{
+    border-bottom: 1px solid var(--backgroud-contact);
+    background-image: var(--gradient);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.border{
+   background: var(--gradient);
+   padding: 2px;
+   border-radius: 40px;
+}
+
+.contact{
+    background: var(--gradient);
+    padding: 7px 20px;
+    border-radius: 20px;
+    transition: 0.3s;
+    border: 2px solid var(--backgroud-header);
+}
+
+.contact .bi{
+    color: var(--backgroud-header);
+}
+
+.contact a{
+    color: var(--backgroud-header);
+    font-weight: 600;
+    font-size: 15px;
+}
+
+header .menu-media{
+    display: none;
+}
+
+#info-media{
+    display: flex;
+}
+/* Fim do conteúdo (nav) - continuar no @media (max-width: 768px)*/
+
+
+/* Começo do conteúdo (header-infos) */
+.infos{
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--backgroud-header);
+    padding: 10px 0;
+    border-bottom: 1px solid var(--backgroud-border);
+    border-image: var(--gradient) 1;
+}
+
+.infos .contact-info{
+    display: flex;
+    flex-direction: row;
+}
+
+.infos .txt-info{
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+}
+
+.infos .txt-info i{
+    margin: 0 7px;
+    font-size: 14px;
+    background-image: var(--gradient);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.infos .txt-info p{
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--backgroud-txt);
+}
+
+#social-media{
+    display: none;
+}
+
+.social{
+    display: flex;
+    flex-direction: row;
+}
+
+.social a i{
+    margin: 0 4px;
+    font-size: 17px;
+    padding: 8px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: var(--gradient);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    transition: 0.5s, background-image 0.5s;
+}
+
+.social a i:hover{
+    background: var(--backgroud-contact);
+    color: var(--backgroud-header);
+}
+/* Fim do conteúdo (header-infos) */

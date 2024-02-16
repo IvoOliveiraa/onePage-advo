@@ -1,0 +1,97 @@
+/*Começo - (Home)*/
+main{
+    margin: auto;
+}
+
+main .home{
+    display: grid;
+    padding: 60px 0;
+    position: relative;
+    background-color: var(--backgroud-header);
+}
+
+main .home .hm-content{
+    margin: auto;
+    display: flex;
+}
+
+main .home .hm-content .content{
+    max-width: 65%;
+}
+
+main .home .hm-content .txt{
+    text-align: center;
+}
+
+main .home .hm-content .sub-title{
+    margin-bottom: 30px;
+    background-image: var(--gradient);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+main .home .hm-content .sub-txt{
+    color: var(--backgroud-txt);
+}
+
+main .home .hm-content .success{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+main .home .hm-content .success .border{
+    border-radius: 40px;
+    padding: 2px;
+}
+
+main .home .hm-content .success .btn{
+    background: var(--gradient);
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 18px;
+    border: 2px solid var(--backgroud-header);
+}
+
+main .home .hm-content .success .btn a {
+    color: var(--backgroud-header);
+}
+
+main .home .hm-content .success .info-success{
+    display: flex;
+    margin: 0 30px;
+}
+
+main .home .hm-content .success .info-success div{
+    margin: 0 7px;
+}
+
+main .home .hm-content .success .info-success h3{
+    color: var(--backgroud-contact);
+    text-align: left;
+}
+
+main .home .hm-content .success .info-success p{
+    color: var(--backgroud-txt);
+    font-family: 16px;
+}
+
+main .home .img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--backgroud-border);
+    max-width: 430px;
+    margin: 0 40px;
+    border-radius: 50px 0;
+}
+
+main .home .img img{
+    max-width: 430px;
+    transform: translate(-30px, -20px);
+    border-radius: 50px 0;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.171);
+}
+/*Fim - (Home)*/

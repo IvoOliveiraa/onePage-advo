@@ -1,0 +1,60 @@
+/*Começo - (About)*/
+main .about{
+    padding: 60px 0;
+    position: relative;
+    background-color: var(--backgroud-principal);
+}
+
+main .about .ab-content{
+    margin: auto;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+main .about .ab-content .content{
+    max-width: 65%;
+}
+
+main .about .ab-content h2{
+    margin: 0 3px;
+    margin-bottom: 30px;
+}
+
+main .about .ab-content .success{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+main .about .ab-content .success .btn{
+    background-color: var(--backgroud-contact);
+    padding: 7px 15px;
+    border-radius: 20px;
+    color: var(--backgroud-txt2);
+    font-size: 18px;
+    transition: 0.5s;
+}
+
+main .about .ab-content .success .btn:hover{
+    background-color: var(--backgroud-header);
+    color: var(--backgroud-contact);
+}
+
+main .about .img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--backgroud-header);
+    max-width: 390px;
+    margin: 0 40px;
+    border-radius: 50px 0;
+}
+
+main .about .img img{
+    max-width: 390px;
+    transform: translate(30px, 20px);
+    border-radius: 50px 0;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.171);
+}
+/*Fim - (About)*/

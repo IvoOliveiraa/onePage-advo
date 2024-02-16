@@ -362,6 +362,10 @@
         font-size: 15px;
     }
 
+    main .title{
+        font-size: 26px;
+    }
+
     main .sub-txt{
         font-size: 15px;
     }
@@ -370,40 +374,20 @@
         font-size: 15px;
     }
 
-    main .home .img{
-        max-width: 350px;
-    }
-
     main .home .img img{
         max-width: 350px;
-    }
-
-    main .home .hm-content h2{
-        font-size: 30px;
     }
 
     main .home .hm-content .success .info-success h3{
         font-size: 15px;
     }
 
-    main .about .img{
-        max-width: 350px;
-    }
-
     main .about .img img{
         max-width: 350px;
     }
 
-    main .about .ab-content h2{
-        font-size: 25px;
-    }
-
     main .about .ab-content .success .btn{
         font-size: 15px;
-    }
-
-    main .services .sv-content h2{
-        font-size: 25px;
     }
 
     main .services .sv-content .services-cards .card .card-txt p{
@@ -416,10 +400,6 @@
 
     main .team .tm-content h4{
         font-size: 15px;
-    }
-
-    main .team .tm-content h2{
-        font-size: 25px;
     }
 
     main .team .tm-content .btn{
@@ -468,7 +448,6 @@
         bottom: 90px;
         right: 15px;
     }
-
 }
 
 
@@ -529,8 +508,3 @@
     }
 
 }
-
-
-
-
-
