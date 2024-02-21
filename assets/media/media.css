@@ -199,7 +199,7 @@
 
     nav #menu a{
         display: flex;
-        margin: 10px 0;
+        margin: 6px 0;
         transform: translateX(-30rem);
         transition: .20s ease;
         transition-delay: 0s;
