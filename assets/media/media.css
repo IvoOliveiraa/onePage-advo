@@ -201,6 +201,7 @@
         transition-delay: 0s;
         align-items: center;
         justify-content: center;
+        font-weight: 500;
     }
 
     nav.ativar #menu a{
@@ -303,7 +304,7 @@
         justify-content: space-around;
         padding: 20px 3px;
     }
-   
+
     header .icon-media{
         display: flex;
     }
@@ -480,5 +481,12 @@
     main .about .img{
         max-width: 250px;
     }
+    
+    header #menu a{
+        font-size: 15px;
+    }
 
+    .social{
+       margin-bottom: 30px;
+    }
 }
